@@ -1,0 +1,122 @@
+# Preferred name (Characters only)
+name: "Shoobham Hans"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_ShoobhamHans
+
+# Preferred name (Characters only)
+name: "Shoobham Hans"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo
+
+# Introduce yourself (80-120 words)
+# Suggestions: you should 
+# 1) describe your academic and work experience (please focus on transferable/job related tech and soft skills only)
+# 2) explain your passion for the role you are looking for (e.g. developer, BSA, QA, tech support, etc.)
+# 3) mention what kind of role you are looking for
+# 4) briefly talk about your qualifications (soft and tech) to justify why the hiring manager should hire your 
+summary: 
+I am a results-oriented Business Data Analyst with over 4 years of experience in market research, data analytics, and reporting. My expertise lies in understanding consumer behavior, optimizing engagement strategies, and delivering value propositions through data-driven insights. I have a strong foundation in data analytics tools and programming languages, such as SQL, R, Python, Power BI, and Tableau. My passion for data analytics drives me to deliver actionable insights that support strategic decision-making. I am seeking a Business Systems Analyst role where I can leverage my technical and business skills to contribute to impactful projects.
+
+skills:
+  # Please include 
+  #     1)soft skills (e.g. elicitation, communication, collaboration, interpersonal, etc ) 
+  #     2) business tools (such as Excel, Viso, etc.)
+  Business Skills:
+    - Elicitation
+    - Communication
+    - Collaboration
+    - Interpersonal skills
+    - Strategic decision-making
+  # Please add more data related skills, such as Python, Tableau, R, Matlab, AI, ML, Statistics, etc.
+  # You can also add some programming skills, such as programming languages, GIT, Linux, Cloud Platform, tools, etc.
+  Technical Skills:
+    - Data Analytics
+    - Data Visualization
+    - Reporting
+    - SQL
+    - Python (NumPy, Pandas, Matplotlib, TensorFlow)
+    - Power BI
+    - Tableau
+    - ETL/ELT
+    - Microsoft Suite (Excel, Word, PowerPoint)
+    - Report Creation
+    - Dashboard Building
+    - Agile-Scrum Framework
+
+# List of Jarvis projects
+# Please describe your resume from a BSA perspective (e.g. requirement elicitation, scope, stakeholder, coordination, diagrams)
+jarvis_projects:
+  - name: "Linux Cluster Resource Monitoring App"
+    git_url: "/linux_sql"
+    # Focus on BSA work instead of development work
+    # Include the following keywords: BRD, SRD, Elicitation, stakeholder, requirement, analysis, RDBMS, SQL, data modeling, SLA
+    description: Led requirement elicitation and analysis for the Linux Cluster Resource Monitoring App. Engaged with stakeholders to develop BRD and SRD documents. Designed data models and implemented RDBMS using SQL, ensuring alignment with SLAs and project scope.
+  - name: "Python Data Analytics"
+    git_url: "/python_data_analytics"
+    # Focus on BSA work instead of development work
+    # e.g. solve business problem, requirement, data sources, analytics, stakeholders, documentation
+    description: Conducted requirement gathering and documentation for a Python-based Data Analytics project. Collaborated with stakeholders to identify key business problems and utilized various data sources to perform analytics, delivering actionable insights through comprehensive documentation.
+  - name: "Hadoop"
+    git_url: "/hadoop"
+    description: Conducted requirement analysis and collaborated with stakeholders for a Hadoop-based big data project. Developed detailed documentation and data models to facilitate the processing and analysis of large datasets, ensuring efficient data handling and insightful results.
+
+# List of personal or academic projects
+# Please focus on transferable skills, such as soft skills and data related skills
+highlighted_projects:
+  - name: "Web app for restaurant"
+    #URL is optional
+    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Developed a web application for a restaurant, gathering requirements through direct client interaction. Implemented the full software development lifecycle, from data modeling to deployment, ensuring the solution met business needs effectively.
+  - name: "Machine Learning"
+    git_url:
+    description: Executed a machine learning project, starting with requirement elicitation and data collection. Applied machine learning algorithms to analyze data, delivering predictive models and actionable insights. Documented the entire process, highlighting the business impact and potential improvements.
+
+# List of professional experience
+# Please focus on transferable skills, such as soft skills and data related skills
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Business Analyst"
+    company: "Interact Health PRO"
+    duration: "APR 2023 - MAR 2024"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    # Avoid the following terms: training, learning, etc. Instead, you should focus on the work, such as worked on XYY; Wrote ABC document; Analyzed QWE project;
+    description: Improved marketing, value propositions, and campaign KPIs by 35% through end-to-end data analysis. Developed dashboards and reports in Power BI, presenting complex healthcare data trends to upper-level management and stakeholders. Addressed application defects and gaps to ensure smooth functionality and enhanced user satisfaction.
+  - title: "Business Data Analyst"
+    company: "TATA 1mg Technologies PVT. LTD."
+    duration: "OCT 2019 - DEC 2021"
+    description: Improved customer sales engagement and campaign effectiveness by leveraging Excel and SQL for in-depth data analysis. Created high-precision reports enhancing data integrity and guiding informed business decisions. Executed meticulous data cleaning and advanced preprocessing on diverse datasets. Generated and customized over 250 ad-hoc reports tailored to client specifications.
+
+#List of education
+education: 
+  - school_name: "Humber Institute of Advanced Learning and Technology"
+    duration: "AUG 2023"
+    degree: "Business Insights and Analytics"
+    department: ""
+    awards_achievements: 
+      - "Deans Honor Award recipient"
+      - "GPA: 82.9"
+  - school_name: "Jamia Hamdard"
+    duration: "MAY 2019"
+    degree: "Bachelor of Pharmacy"
+    department: ""
+    awards_achievements: 
+      - "GPA: 80"
+
+#Optional section
+others:
+    #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "Lean Sigma Six, Green Belt - Project Management Institute (FEB23)"
+      - "Advanced Excel - LinkedIn (MAR24)"
+  - title: "Awards"
+    bullets:
+      - "Deans Honor Award recipient"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Basketball player; joined XYZ club"
+      - "Competitive gaming; competed for XYZ team"
+      - "Volunteer, ABC Food Bank"
+

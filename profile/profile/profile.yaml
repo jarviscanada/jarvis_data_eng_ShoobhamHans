@@ -6,113 +6,106 @@
 # ../README.md #overwrite your existing README
 # profile.json #this file will be consumed by Jarvis Consultant App
 # jarvis_profile_John_Smith.pdf #PDF version of ../README.md
-#
+
 name: "Shoobham Hans"
 # Your GitHub repo root URL
-github_repo_root_url: https://github.com/jarviscanada/jarvis_data_ShoobhamHans
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo
 
-# Introduce yourself, your academic and professional background.
-# What excites you about the software industry and your passion. At least 80 words
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+# Introduce yourself (80-120 words)
+# Suggestions: you should 
+# 1) describe your academic and work experience (please focus on transferable/job related tech and soft skills only)
+# 2) explain your passion for the role you are looking for (e.g. developer, BSA, QA, tech support, etc.)
+# 3) mention what kind of role you are looking for
+# 4) briefly talk about your qualifications (soft and tech) to justify why the hiring manager should hire your 
+summary: 
+I am a results-oriented Business Data Analyst with over 4 years of experience in market research, data analytics, and reporting. My expertise lies in understanding consumer behavior, optimizing engagement strategies, and delivering value propositions through data-driven insights. I have a strong foundation in data analytics tools and programming languages, such as SQL, R, Python, Power BI, and Tableau. My passion for data analytics drives me to deliver actionable insights that support strategic decision-making. I am seeking a Business Systems Analyst role where I can leverage my technical and business skills to contribute to impactful projects.
 
-# Group your skills by level.
-# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
-  # At least 5 skills
-  proficient:
-    - Java
-    - Linux/Bash
-    - RDBMS/SQL
-    - Agile/Scrum
-    - Git
-  # At least 5 skills
-  competent:
-    - Donec
-    - fermentum
-    - Donec
-    - fermentum
-    - Donec
-  # At least 5 skills
-  familiar:
-    - Donec
-    - fermentum
-    - fermentum
-    - fermentum
-    - fermentum
+  # Please include 
+  #     1)soft skills (e.g. elicitation, communication, collaboration, interpersonal, etc ) 
+  #     2) business tools (such as Excel, Viso, etc.)
+  Business Skills:
+    - Elicitation
+    - Communication
+    - Collaboration
+    - Interpersonal skills
+    - Strategic decision-making
+  # Please add more data related skills, such as Python, Tableau, R, Matlab, AI, ML, Statistics, etc.
+  # You can also add some programming skills, such as programming languages, GIT, Linux, Cloud Platform, tools, etc.
+  Technical Skills:
+    - Data Analytics
+    - Data Visualization
+    - Reporting
+    - SQL
+    - R
+    - Python (NumPy, Pandas, Matplotlib, TensorFlow)
+    - Power BI
+    - Tableau
+    - ETL/ELT
+    - Microsoft Suite (Excel, Word, PowerPoint)
+    - Report Creation
+    - Dashboard Building
+    - Agile-Scrum Framework
 
 # List of Jarvis projects
+# Please describe your resume from a BSA perspective (e.g. requirement elicitation, scope, stakeholder, coordination, diagrams)
 jarvis_projects:
-  - name: "Cluster Monitor"
+  - name: "Linux Cluster Resource Monitoring App"
     git_url: "/linux_sql"
-    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Core Java Apps"
-    git_url: "/core_java"
-    description:
-      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-  - name: "Springboot App"
-    git_url: "/springboot"
-    description: ""
+    # Focus on BSA work instead of development work
+    # Include the following keywords: BRD, SRD, Elicitation, stakeholder, requirement, analysis, RDBMS, SQL, data modeling, SLA
+    description: Led requirement elicitation and analysis for the Linux Cluster Resource Monitoring App. Engaged with stakeholders to develop BRD and SRD documents. Designed data models and implemented RDBMS using SQL, ensuring alignment with SLAs and project scope.
   - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
-    description: ""
+    git_url: "/python_data_analytics"
+    # Focus on BSA work instead of development work
+    # e.g. solve business problem, requirement, data sources, analytics, stakeholders, documentation
+    description: Conducted requirement gathering and documentation for a Python-based Data Analytics project. Collaborated with stakeholders to identify key business problems and utilized various data sources to perform analytics, delivering actionable insights through comprehensive documentation.
   - name: "Hadoop"
     git_url: "/hadoop"
-    description: ""
-  - name: "Spark"
-    git_url: "/spark"
-    description: ""
-  - name: "Cloud/DevOps"
-    git_url: "/cloud_devops"
-    description: ""
+    description: Conducted requirement analysis and collaborated with stakeholders for a Hadoop-based big data project. Developed detailed documentation and data models to facilitate the processing and analysis of large datasets, ensuring efficient data handling and insightful results.
 
 # List of personal or academic projects
-# Feel free to add more projects
+# Please focus on transferable skills, such as soft skills and data related skills
 highlighted_projects:
-    #project name
-  - name: "Web app for resturant"
+  - name: "Web app for restaurant"
     #URL is optional
     git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    description: Developed a web application for a restaurant, gathering requirements through direct client interaction. Implemented the full software development lifecycle, from data modeling to deployment, ensuring the solution met business needs effectively.
   - name: "Machine Learning"
     git_url:
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    description: Executed a machine learning project, starting with requirement elicitation and data collection. Applied machine learning algorithms to analyze data, delivering predictive models and actionable insights. Documented the entire process, highlighting the business impact and potential improvements.
 
-#List of professional experience
-#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
-#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+# List of professional experience
+# Please focus on transferable skills, such as soft skills and data related skills
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
-  - title: "Software Developer"
-    company: "Jarvis"
-    duration: "2020-present"
+  - title: "Business Analyst"
+    company: "Interact Health PRO"
+    duration: "APR 2023 - MAR 2024"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-  - title: "Tutor"
-    company: "XYZ Company"
-    duration: "2019"
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+    # Avoid the following terms: training, learning, etc. Instead, you should focus on the work, such as worked on XYY; Wrote ABC document; Analyzed QWE project;
+    description: Improved marketing, value propositions, and campaign KPIs by 35% through end-to-end data analysis. Developed dashboards and reports in Power BI, presenting complex healthcare data trends to upper-level management and stakeholders. Addressed application defects and gaps to ensure smooth functionality and enhanced user satisfaction.
+  - title: "Business Data Analyst"
+    company: "TATA 1mg Technologies PVT. LTD."
+    duration: "OCT 2019 - DEC 2021"
+    description: Improved customer sales engagement and campaign effectiveness by leveraging Excel and SQL for in-depth data analysis. Created high-precision reports enhancing data integrity and guiding informed business decisions. Executed meticulous data cleaning and advanced preprocessing on diverse datasets. Generated and customized over 250 ad-hoc reports tailored to client specifications.
 
-#List of edcuation
+#List of education
 education: 
-  - school_name: "XYZ university"
-    duration: "2012-2016"
-    degree: "Bachelor of Applied Sciences"
-    department: "Electrical and Computer Engineering"
-    # optional
+  - school_name: "Humber Institute of Advanced Learning and Technology"
+    duration: "AUG 2023"
+    degree: "Business Insights and Analytics"
+    department: ""
     awards_achievements: 
-      - "Scholarship"
-      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
-      - "GPA: 3.8/4.0"
-  - school_name: "XYZ university"
-    duration: "2016-2018"
-    degree: "Master of Engineering"
-    department: "Electrical and Computer Engineering"
+      - "Deans Honor Award recipient"
+      - "GPA: 82.9"
+  - school_name: "Jamia Hamdard"
+    duration: "MAY 2019"
+    degree: "Bachelor of Pharmacy"
+    department: ""
     awards_achievements: 
+      - "GPA: 80"
 
 #Optional section
 others:
@@ -120,12 +113,133 @@ others:
   - title: "Certificates"
     #list of items
     bullets:
-      - "Udacity Machine Learning (2019)"
+      - "Lean Sigma Six, Green Belt - Project Management Institute (FEB23)"
+      - "Advanced Excel - LinkedIn (MAR24)"
   - title: "Awards"
     bullets:
-      - "Winner"
+      - "Deans Honor Award recipient"
   - title: "Activities/Hobbies"
     bullets:
-      - "Basketball player"
-      - "Competitive gaming"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+      - "Basketball player; joined XYZ club"
+      - "Competitive gaming; competed for XYZ team"
+      - "Volunteer, ABC Food Bank"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
